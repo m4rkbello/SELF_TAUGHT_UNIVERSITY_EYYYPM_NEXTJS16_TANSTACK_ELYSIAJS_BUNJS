@@ -3,3 +3,6 @@
 
 2. INSTALL NANOID USING BUNJS AS 
 ->bun install nanoid
+
+3. INSTALL SUPERFAST ELYSIAJS AS ROUTE,MIDDLEWARE AND MORE 
+->bun install elysia
