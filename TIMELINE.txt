@@ -1,4 +1,5 @@
 1. INSTALL BUNJS AND NEXTJS
 ->  bunx create-next-app@latest
 
-
+2. INSTALL NANOID USING BUNJS AS 
+->bun install nanoid
