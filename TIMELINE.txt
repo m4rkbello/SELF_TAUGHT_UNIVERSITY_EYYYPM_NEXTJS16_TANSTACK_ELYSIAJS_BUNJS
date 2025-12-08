@@ -1,0 +1,4 @@
+1. INSTALL BUNJS AND NEXTJS
+->  bunx create-next-app@latest
+
+
