@@ -6,3 +6,5 @@
 
 3. INSTALL SUPERFAST ELYSIAJS AS ROUTE,MIDDLEWARE AND MORE 
 ->bun install elysia
+
+STOP AT 29:53 MINUTES OF REFERENCE FOR https://www.youtube.com/watch?v=D8CLV-MRH0k&t=98s
