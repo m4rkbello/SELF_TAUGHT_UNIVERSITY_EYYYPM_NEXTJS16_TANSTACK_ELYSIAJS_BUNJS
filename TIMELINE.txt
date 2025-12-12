@@ -8,6 +8,11 @@
 ->bun install elysia
 
 4. INSTALL ELYSIA/EDEN
-->bun add elysia @elysiajs/eden
+->bun add elysia @elysiajs/eden - para sa typesafety ug display ang data sa api 
 
-STOP AT 29:53 MINUTES OF REFERENCE FOR https://www.youtube.com/watch?v=D8CLV-MRH0k&t=98s
+5. INSTALL TANSTACK QUERY
+-> bun i @tanstack/react-query
+
+
+
+STOP AT 34:18 MINUTES OF REFERENCE FOR https://www.youtube.com/watch?v=D8CLV-MRH0k&t=98s
