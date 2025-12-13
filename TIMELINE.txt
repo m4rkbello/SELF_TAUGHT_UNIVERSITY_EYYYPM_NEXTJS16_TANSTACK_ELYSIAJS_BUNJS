@@ -13,6 +13,9 @@
 5. INSTALL TANSTACK QUERY
 -> bun i @tanstack/react-query
 
+6. INSTALL REDIS-UPSTASH PACKAGE
+->bun i @upstash/redis
+
 
 
 STOP AT 34:18 MINUTES OF REFERENCE FOR https://www.youtube.com/watch?v=D8CLV-MRH0k&t=98s
