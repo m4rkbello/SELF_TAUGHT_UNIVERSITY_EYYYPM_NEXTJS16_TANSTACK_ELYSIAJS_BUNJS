@@ -21,9 +21,7 @@ const rooms = new Elysia({prefix: "/room"}).post("/create", async () => {
 const App = new Elysia({ prefix: '/api' }).use(rooms)
 
 
-
 export const GET = App.fetch 
 export const POST = App.fetch 
-
 
 export type App = typeof App 
