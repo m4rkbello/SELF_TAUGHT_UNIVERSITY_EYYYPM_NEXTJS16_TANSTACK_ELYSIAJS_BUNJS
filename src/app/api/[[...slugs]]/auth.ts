@@ -1,3 +1,4 @@
+import { redis } from "@/lib/redis"
 import Elysia from "elysia"
 
 class AuthError extends Error {
@@ -17,6 +18,14 @@ export const  authMiddleware  =  new Elysia({
         return {error: "Unauthorized!"}
     }
 })
-.derive(() =>{
+.derive({ as: "scoped"}, async ({query, cookie}) => {
+    const roomId = query.roomId
+    const token = cookie["x-auth-token"].value as string | undefined
 
+    if(!roomId || !token){
+        throw new AuthError("Missing roomID or Token!")
+    }
+
+    //check ang metadata 
+    const connected = await redis.hget(`meta.${roomId}`,"connected")
 })
